@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 "con un usuario",Toast.LENGTH_SHORT);
                 toast.show();
     }
+    public void Menu(View view) {
+        Intent intent = new Intent(this, Menu.class);
+        startActivity(intent);
+    }
     public void onClick(View v) {
         if(v.getId() == R.id.btnLogin){
             Log.d("mensaje","ïngreso");

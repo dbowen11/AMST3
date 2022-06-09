@@ -7,14 +7,18 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="Mapa" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="Calendar View" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="Video View" />
+        <item
+            android:id="@+id/nav_graficolineal"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Grafico lineal" />
     </group>
 </menu>
