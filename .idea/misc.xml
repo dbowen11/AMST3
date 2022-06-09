@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/David Bowen/AndroidStudioProjects/AMST3/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/David Bowen/AndroidStudioProjects/AMST3/app/src/main/res/layout/activity_menu.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/David Bowen/AndroidStudioProjects/AMST3/app/src/main/res/layout/content_menu.xml" value="0.22826086956521738" />
         <entry key="..\:/rober/StudioProjects/app/src/main/res/layout/activity_formulario_registro.xml" value="0.25" />
         <entry key="..\:/rober/StudioProjects/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
