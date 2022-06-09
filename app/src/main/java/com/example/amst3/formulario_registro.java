@@ -1,14 +1,14 @@
 package com.example.amst3;
 
-import android.app.NotificationManager; import
-        android.app.NotificationChannel; import
-        android.app.PendingIntent; import
-        android.content.Context;
+import android.app.NotificationManager;
+import android.app.NotificationChannel;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.NotificationCompat; import
-        android.support.v7.app.AppCompatActivity; import
-        android.view.View;
+import android.support.v4.app.NotificationCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 public class formulario_registro extends AppCompatActivity { @Override
 protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_formulario_registro);
@@ -21,9 +21,8 @@ protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanc
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             String id ="canal";
             String description = "AMST";
-            int importance = NotificationManager.IMPORTANCE_HIGH; NotificationChannel
-                    channel = new NotificationChannel(id,
-                    description, importance);
+            int importance = NotificationManager.IMPORTANCE_HIGH;
+            NotificationChannel channel = new NotificationChannel(id, description, importance);
             NotificationCompat.Builder builder =
                     new NotificationCompat.Builder(this,id)
                             .setSmallIcon(R.drawable.aa).setContentTitle("Se ha registrado con exito")

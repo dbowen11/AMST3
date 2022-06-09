@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
     }
     public void registrarse(View view) {
-        Intent intent = new Intent(this, formulario_registro.class); startActivity(intent);
+        Intent intent = new Intent(this, formulario_registro.class);
+        startActivity(intent);
     }
     public void login(View view) {
         Toast toast=Toast.makeText(getApplicationContext(),"Usted no cuenta " +
