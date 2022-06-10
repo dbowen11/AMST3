@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 toast.show();
     }
     public void Menu(View view) {
-        Intent intent = new Intent(this, Menu.class);
+        Intent intent = new Intent(this, Menua.class);
         startActivity(intent);
     }
     public void onClick(View v) {
