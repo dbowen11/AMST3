@@ -6,15 +6,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log; import
         android.view.View; import
         android.widget.Button;
+import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private EditText txtNombre, txtApellido, txtUsuario, txtPasswd; private Button
             btnLogin, btnRegistro;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 //Referencias a los controles
         txtUsuario = (EditText) findViewById(R.id.txtUsuario);
         txtPasswd = (EditText) findViewById(R.id.txtPasswd);
