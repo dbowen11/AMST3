@@ -16,9 +16,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key"/>
-        <activity
-            android:name=".calendar_view"
-            android:exported="false" />
+
         <activity
             android:name=".VideoView"
             android:exported="false" />
